@@ -1,0 +1,27 @@
+
+.color-red {
+    color: #d62733;
+}
+
+.color-green {
+  color: #24ff33;
+}
+
+/* table style */
+.pure-table {
+    width: 100%;
+}
+
+.report-table {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+body a {
+    text-decoration:none;
+}

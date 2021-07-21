@@ -1,0 +1,41 @@
+
+
+body{
+	width: 1080px;
+}
+
+#th_left{
+	width:30%;
+	height:700px;
+	background:#223344;
+	float:left;
+}
+
+#th_main{
+	width:50%;
+	height:700px;
+	background:#553344; 
+	float:left;
+}
+
+#th_footer{
+	width:20%;
+	height:700px;
+	background:#993344; 
+	float:left;
+}
+
+.Piece{
+	align-content: center;
+}
+
+.Windows{
+	width: 300px;
+	height: 300px;
+}
+
+.d{
+	margin-left: 30px;
+	font-family: "楷体";
+}
+

@@ -1,0 +1,253 @@
+ /* Cascading Style Sheets de la page unix */
+
+.body {
+	background-image: url('fond50.png');
+	background-attachment: fixed;
+}
+
+.titre {
+	color: #003322;
+	font-size: 30pt;
+	font-family: "Garamond", "Adobe Garamond", "Times",  "Times New Roman";
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.corps {
+	color: #000;
+	font-size: 12pt;
+	font-family: sans-serif, arial;
+	margin-bottom: 1em;
+	margin: 0px 20px 20px 20px;
+}
+
+.corps2 {
+	color: #000;
+	font-size: 12pt;
+	font-family: sans-serif, arial;
+	margin: 0px 20px 20px 20px;
+}
+
+.pubv {
+	float: left;
+	width: 120px;
+	margin: 0px 20px 20px 20px;
+}
+.pubvu {
+	margin-bottom: 30px;
+}
+.datav {
+	float: right;
+}
+
+.portt {
+	margin: 0; border-width: 0; padding: 0; width: 100%;
+}
+.portd {
+}
+.portm {
+	text-align: center;
+	vertical-align: top;
+	font-style: italic;
+	font-size: 10pt;
+	width: 14%;
+}
+
+.pdft {
+	margin: 0; border-width: 0; padding: 0; width: 400px;
+}
+.pdfd {
+}
+.pdfm {
+	text-align: center;
+	vertical-align: top;
+	font-style: italic;
+	font-size: 10pt;
+	width: 16%;
+}
+.pdfn {
+	text-align: center;
+	vertical-align: top;
+	font-style: italic;
+	font-size: 12pt;
+	width: 16%;
+}
+.pdfe {
+	width: 16%;
+}
+
+.pdf {
+	background-image : url("pdf.png");
+	border-width: 0;
+	margin: 0 0 0 0;
+	width: 32px;
+	height: 32px;
+}
+.pdf:hover {
+	background-image : url("pdf-high.png");
+	border-width: 0;
+	margin: 0 0 0 0;
+	width: 32px;
+	height: 32px;
+}
+
+.unix1t {
+	margin: 0; border-width: 0; padding: 2em; width: 100%;
+}
+.unix1r {
+	vertical-align: top;
+}
+.unix1m {
+	text-align: left;
+	font-size: 10pt;
+	width: 25%;
+}
+.unix2m {
+	text-align: left;
+	font-size: 10pt;
+	width: 16%;
+}
+
+.wallt {
+	margin: 0; border-width: 0; padding: 0; width: 100%;
+}
+.walld {
+	padding: 0px 20px 0px 50px;
+}
+.wallm {
+	text-align: left;
+	vertical-align: middle;
+}
+
+.note {
+	font-size: 10pt;
+	font-style: italic;
+}
+
+.petit {
+	font-size: 10pt;
+	font-style: italic;
+}
+
+/* zoom */
+
+.zoom {
+	position: absolute;
+	left: 5%;
+	padding-right: 90%;
+	height: 300px;
+	border: 1px solid black;
+}
+
+.cadre_hg {
+	background: url(../images/cadre-hg.png) no-repeat;
+	width: 22px;
+	height: 32px;
+}
+.cadre_hc {
+	background: url(../images/cadre-hc.png) repeat-x;
+	height: 32px;
+	color: #003322;
+	font-size: 18pt;
+	font-family: "Garamond", "Adobe Garamond", "Times",  "Times New Roman";
+	font-weight: bold;
+	text-align: left;
+}
+.cadre_hd {
+	background: url(../images/cadre-hd.png) no-repeat;
+	width: 22px;
+	height: 32px;
+}
+.cadre_cg {
+	background: url(../images/cadre-cg.png) repeat-y;
+	background-color: #B0EED3;
+	width: 22px;
+}
+.cadre_c {
+	background-color: #B0EED3;
+	text-align: left;
+	padding-bottom: 1em;
+}
+.cadre_cd {
+	background: url(../images/cadre-cd.png) repeat-y;
+	background-color: #B0EED3;
+	width: 22px;
+}
+.cadre_b {
+	background: url(../images/cadre-b.png) repeat-x;
+	height: 2px;
+}
+
+.petit_cadre {
+	border-width: 0;
+	float: right;
+	margin: 10px 0px 0px 10px;
+	font-family: "arial";
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+	font-size: 8pt;
+}
+
+
+h1 {
+	color: #003322;
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+/* Liens */
+
+a.ext:link {
+	color: #000FD6
+}
+a.ext:visited {
+	color: #551A8B;
+}
+a.ext:hover {
+	color: #22C690;
+}
+a.ext:active {
+	color: #DD00CC;
+}
+
+a.local, a.local2 {
+	text-decoration: none;
+	border-bottom: 1px dotted #000FD6;
+}
+a.local:visited, a.local2:visited {
+	color : #551A8B;
+	border-bottom: 1px dotted #551A8B;
+}
+a.local:hover, a.local2:hover {
+	color: #22C690;
+	border-bottom: 1px dotted #22C690;
+}
+a.local:active, a.local2:active {
+	color : #DD00CC;
+	border-bottom: 1px dotted #DD00CC;
+}
+
+td.img {
+	padding: 20px 20px 0 0;
+	width: 450px;
+}
+td.txt {
+	padding: 5px 0 0 0;
+	vertical-align: top;
+}
+
+p.cit {
+	font-size: 14pt;
+	font-family: "arial";
+	font-style: italic;
+}
+p.src {
+	font-size: 10pt;
+	font-family: "arial";
+	font-style: italic;
+	margin: 0 0 0 0;
+	text-align: left;
+}
